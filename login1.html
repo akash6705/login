@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0px;
+        padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-image:url('C:/Users/Public/Pictures/Sample Pictures/login11.jpg');
+            background-repeat: no-repea;
+            background-size: cover;
+            color: rgb(46, 43, 43);
+            
+        }
+        .main form{
+            margin-top: -20px;
+        }
+        .text{
+            font-size: 25px;
+            text-transform: capitalize;
+            font-weight: 600;
+            text-align: center;
+            color: rgb(5, 5, 5);
+            border-bottom:1px solid seagreen;
+            margin: 10px;
+            
+        }
+        .main form .data{
+            height: 45px;
+            width: 100%;
+            margin: 25px 0;
+            font-weight: 700;
+        }
+        form .data input{
+            height: 80%;
+            width: 93%;
+            margin-left: 10px;
+            padding-left: 65px;
+            border: 1px solid lightslategray;
+            border-radius: 10px;
+        }
+        .main form .data1{
+            height: 45px;
+            width: 100%;
+            margin: 25px 0;
+            font-weight: 700;
+        }
+        form .data1 input{
+            height: 80%;
+            width: 93%;
+            margin-left: 10px;
+            padding-left: 65px;
+            border: 1px solid lightslategray;
+            border-radius: 10px;
+            
+        }
+        
+        form .data1 input::placeholder{
+            font-size: 15px;
+            color: rgb(119, 114, 114);
+            
+        }
+        form .data input::placeholder{
+            font-size: 15px;
+            color: rgb(119, 114, 114);
+        }
+        form input:hover{
+            
+            background-color: blanchedalmond;
+        }
+        form .data label{
+            font-size: 19px;
+            margin-left: 10px;
+            color: black;
+        }
+        form .data1 label{
+            font-size: 19px;
+            margin-left: 10px;
+            color: black;
+        }
+        .main{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 300px;
+            height: 270px;
+            transform: translate(-50%,-50%);
+            background-color: ivory;
+            box-shadow: 0 0 8px rgba(8, 8, 8, 0.9);
+            background: transparent;
+            border-radius: 10px;  }
+        .forgotpass{
+            margin-left: 10px;
+    
+        }
+        
+        .main a:hover{
+            text-decoration: underline;
+        }
+        .main a{
+            color: rgb(223, 226, 236);
+            font-size: 15px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            text-decoration: none;
+            text-shadow: 1px 1px 5px black;
+            
+        }
+        
+        .main .btn button{
+        margin: 10px 25px;
+        height: 45px;
+        width: 80%;
+        background-color: rgb(54, 67, 243);
+        text-transform: capitalize;
+        font-size: 17px;
+        font-weight: bold;
+        color: rgb(15, 231, 247);
+        cursor: pointer;
+        border-radius: 20px;
+        letter-spacing: 3px;
+        
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="center">
+            <div class="text">login form</div>
+            <form action="#">
+                <div class="data">
+                    <label id="ak">user name:</label>
+                    <input type="text" name="t1" required placeholder="enter the user name">
+                </div>
+                <div class="data1"> <label id="sk">password:</label>
+                    <input type="password" name="t1" required placeholder="enter the password"></div>
+                    <div class="forgotpass"><a href="forgot.html">forgot password ?</a></div>
+                    <div class="btn"><button type="submit">login</button></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

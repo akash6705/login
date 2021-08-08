@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main { background-image: url('C:/Users/Public/Pictures/Sample Pictures/pass1.jpg');
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+            height: 600px;
+            width: 1200px;
+            border: 1px solid rgb(44, 43, 43);
+            background-color: rgb(215, 237, 240);
+            position: relative;
+            margin: auto;
+            max-width:100%;
+            max-height: 100%;
+
+            
+        }
+
+        .conte {
+        background: transparent;
+            height: 350px;
+            width: 60%;
+            border: 1px solid black;
+            position: absolute;
+            left: 20%;
+            top: 20%;
+            border-top-left-radius: 45px;
+            border-bottom-right-radius: 45px;
+
+
+
+        }
+        h3{
+            margin-left: 10px;
+            text-shadow:1px 1px 5px chartreuse;
+            text-transform: capitalize;
+            border-bottom: 1px dashed black;
+            margin-bottom:  30px;
+            
+        }
+        .conte table th{
+            text-transform: capitalize;
+            color: whitesmoke;
+           
+        }
+        .conte table input:hover{
+            background-color: rgb(230, 240, 238);
+        }
+
+
+        .conte table {
+            
+            margin: auto;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            text-transform: capitalize;
+            font-size: 18px;
+            letter-spacing: 1px;
+
+        }
+
+        .conte table input {
+            height: 25px;
+            background-color: rgb(250, 255, 255);
+            margin-left: 5px;
+        }
+
+        .conte table button {
+            height: 30px;
+            border-radius: 5px;
+            background-color:  rgb(243, 176, 176);
+        }
+        .conte table button:hover{
+            background: rgb(238, 8, 8);
+            transition: 1s;
+             border-radius: 20px;
+        
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="conte">
+            <form action="#">
+            <h3>change password</h3>
+            <table>
+                <tr>
+                    <th>enter username:</th>
+                    <th><input type="text" name="t1" id="ak" size="40" required></th>
+                </tr>
+                <tr>
+                    <th>
+                        <h4>enter the password:</h4>
+
+                    </th>
+                    <th><input type="password" name="t2" id="pass" required size="40"></th>
+                </tr>
+                <tr>
+                    <th>confirm password:</th>
+                    <th><input type="password" name="t3" id="pass1" size="40" required></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th><button type="submit">login</button></th>
+                </tr>
+
+            </table>
+        </form>
+        </div>
+   
+
+    </div>
+</body>
+
+</html>
